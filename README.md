@@ -1,14 +1,16 @@
-# figma-linux-font-helper
+# Figma Font-helper for Linux
 
-Figma Linux Font Helper
+This is a continuation of a project started by https://github.com/tryvin/.
+This project is started because the original project was not being maintained.
 
-# Why
-
-A fellow friend of mine was switching to Linux, and needed the Local fonts support for Figma
+I will try my best to respond and help people who want to contribute to this
+repo by accepting pull requests etc.
 
 # How
 
-This project was a reverse engineer from the local font helper from Figma for App, it uses fc-list, and fc-cache for the fonts lists, and python for the webserver
+This project was a reverse engineer from the local font helper from Figma for
+App, it uses fc-list, and fc-cache for the fonts lists, and python for
+the webserver.
 
 # How to use it
 
@@ -17,7 +19,10 @@ This project was a reverse engineer from the local font helper from Figma for Ap
 - Run `python server.py`
 - Navigate to figma.com and try to use the local fonts.
 
-## Create a deamon to always start the server
+You should see figma connecting in the log printed in the terminal when your
+refresh figma.
+
+## Create a deamon to always start the server on startup
 
 Create a new systemd file:
 
